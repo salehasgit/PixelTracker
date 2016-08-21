@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>335</width>
-    <height>465</height>
+    <width>660</width>
+    <height>599</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,8 +28,8 @@
          </property>
          <property name="geometry">
           <rect>
-           <x>130</x>
-           <y>350</y>
+           <x>120</x>
+           <y>500</y>
            <width>181</width>
            <height>71</height>
           </rect>
@@ -43,8 +43,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>321</width>
-           <height>181</height>
+           <width>641</width>
+           <height>481</height>
           </rect>
          </property>
          <property name="text">
@@ -55,7 +55,7 @@
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>340</y>
+           <y>500</y>
            <width>120</width>
            <height>80</height>
           </rect>
@@ -96,6 +96,9 @@
           </property>
          </widget>
         </widget>
+        <zorder>image_label</zorder>
+        <zorder>groupBox</zorder>
+        <zorder>goText</zorder>
        </widget>
       </item>
      </layout>

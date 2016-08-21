@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'tracker_ui.ui'
 #
-# Created: Sat Aug 20 14:14:13 2016
+# Created: Sat Aug 20 19:00:25 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,7 +12,7 @@ from PySide import QtCore, QtGui
 class Ui_mainWindow(object):
     def setupUi(self, mainWindow):
         mainWindow.setObjectName("mainWindow")
-        mainWindow.resize(335, 465)
+        mainWindow.resize(660, 599)
         self.centralwidget = QtGui.QWidget(mainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout = QtGui.QVBoxLayout(self.centralwidget)
@@ -24,14 +24,14 @@ class Ui_mainWindow(object):
         self.widget.setObjectName("widget")
         self.goText = QtGui.QTextEdit(self.widget)
         self.goText.setEnabled(True)
-        self.goText.setGeometry(QtCore.QRect(130, 350, 181, 71))
+        self.goText.setGeometry(QtCore.QRect(120, 500, 181, 71))
         self.goText.setTextInteractionFlags(QtCore.Qt.TextSelectableByKeyboard|QtCore.Qt.TextSelectableByMouse)
         self.goText.setObjectName("goText")
         self.image_label = QtGui.QLabel(self.widget)
-        self.image_label.setGeometry(QtCore.QRect(0, 0, 321, 181))
+        self.image_label.setGeometry(QtCore.QRect(0, 0, 641, 481))
         self.image_label.setObjectName("image_label")
         self.groupBox = QtGui.QGroupBox(self.widget)
-        self.groupBox.setGeometry(QtCore.QRect(0, 340, 120, 80))
+        self.groupBox.setGeometry(QtCore.QRect(0, 500, 120, 80))
         self.groupBox.setCheckable(False)
         self.groupBox.setObjectName("groupBox")
         self.mode_1 = QtGui.QRadioButton(self.groupBox)
