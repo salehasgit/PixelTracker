@@ -28,10 +28,10 @@
          </property>
          <property name="geometry">
           <rect>
-           <x>120</x>
-           <y>500</y>
-           <width>181</width>
-           <height>71</height>
+           <x>400</x>
+           <y>510</y>
+           <width>221</width>
+           <height>61</height>
           </rect>
          </property>
          <property name="textInteractionFlags">
@@ -96,9 +96,39 @@
           </property>
          </widget>
         </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>500</y>
+           <width>91</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Callibration</string>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <widget class="QPushButton" name="calibrate">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>71</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>callibrate</string>
+          </property>
+         </widget>
+        </widget>
         <zorder>image_label</zorder>
         <zorder>groupBox</zorder>
         <zorder>goText</zorder>
+        <zorder>groupBox_2</zorder>
        </widget>
       </item>
      </layout>

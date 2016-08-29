@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'tracker_ui.ui'
 #
-# Created: Sat Aug 20 19:00:25 2016
+# Created: Tue Aug 23 02:01:25 2016
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -24,7 +24,7 @@ class Ui_mainWindow(object):
         self.widget.setObjectName("widget")
         self.goText = QtGui.QTextEdit(self.widget)
         self.goText.setEnabled(True)
-        self.goText.setGeometry(QtCore.QRect(120, 500, 181, 71))
+        self.goText.setGeometry(QtCore.QRect(400, 510, 221, 61))
         self.goText.setTextInteractionFlags(QtCore.Qt.TextSelectableByKeyboard|QtCore.Qt.TextSelectableByMouse)
         self.goText.setObjectName("goText")
         self.image_label = QtGui.QLabel(self.widget)
@@ -41,6 +41,13 @@ class Ui_mainWindow(object):
         self.mode_2 = QtGui.QRadioButton(self.groupBox)
         self.mode_2.setGeometry(QtCore.QRect(10, 40, 91, 17))
         self.mode_2.setObjectName("mode_2")
+        self.groupBox_2 = QtGui.QGroupBox(self.widget)
+        self.groupBox_2.setGeometry(QtCore.QRect(130, 500, 91, 81))
+        self.groupBox_2.setCheckable(False)
+        self.groupBox_2.setObjectName("groupBox_2")
+        self.calibrate = QtGui.QPushButton(self.groupBox_2)
+        self.calibrate.setGeometry(QtCore.QRect(10, 20, 71, 41))
+        self.calibrate.setObjectName("calibrate")
         self.gridLayout.addWidget(self.widget, 0, 0, 1, 1)
         self.verticalLayout.addLayout(self.gridLayout)
         mainWindow.setCentralWidget(self.centralwidget)
@@ -54,4 +61,6 @@ class Ui_mainWindow(object):
         self.groupBox.setTitle(QtGui.QApplication.translate("mainWindow", " processing modes", None, QtGui.QApplication.UnicodeUTF8))
         self.mode_1.setText(QtGui.QApplication.translate("mainWindow", "Mode 1", None, QtGui.QApplication.UnicodeUTF8))
         self.mode_2.setText(QtGui.QApplication.translate("mainWindow", "Mode 2", None, QtGui.QApplication.UnicodeUTF8))
+        self.groupBox_2.setTitle(QtGui.QApplication.translate("mainWindow", "Callibration", None, QtGui.QApplication.UnicodeUTF8))
+        self.calibrate.setText(QtGui.QApplication.translate("mainWindow", "callibrate", None, QtGui.QApplication.UnicodeUTF8))
 
